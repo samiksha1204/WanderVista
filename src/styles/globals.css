@@ -1,27 +1,125 @@
+/* Tailwind CSS and Custom Properties */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* Global Reset and Font */
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --navbar-height-mob: 5rem;
+  --navbar-height: 10rem;
+
+  --except-nav-mob: calc(100vh - var(--navbar-height-mob));
+  --except-nav: calc(100vh - var(--navbar-height));
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, sans-serif;
+}
+
+/* Main Section Styling */
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Video Styling */
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* Content Section Styling */
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+
+  gap: 170px;
+}
+
+/* Overlay Styling */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.15; /* Use a decimal value between 0 and 1 for transparency */
+  background-color: black;
+}
+
+:root {
+  --font-family: "Roboto", sans-serif;
+}
+
+/* Use Custom Properties in Styles */
+body {
+  color: var(--primary-color);
+  font-family: var(--font-family);
+}
+
+@layer utilities {
+  .p-for-nav {
+    padding-top: var(--navbar-height-mob);
+  }
+
+  @media (min-width: 640px) {
+    .p-for-nav {
+      padding-top: var(--navbar-height);
+    }
+  }
+
+  .h-except-nav {
+    height: var(--except-nav-mob);
+  }
+
+  @media (min-width: 640px) {
+    .h-except-nav {
+      height: var(--except-nav);
+    }
+  }
+
+  .h-navbar {
+    height: var(--navbar-height-mob);
+  }
+
+  @media (min-width: 640px) {
+    .h-navbar {
+      height: var(--navbar-height);
+    }
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+
+  @apply antialiased;
+}
+@media screen(sm) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media screen(md) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen(lg) {
+  html {
+    font-size: 72.5%;
+  }
 }
