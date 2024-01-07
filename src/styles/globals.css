@@ -15,7 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Impact, Haettenschweiler, sans-serif;
+  font-family: Sebastian bobby;
 }
 
 /* Main Section Styling */
@@ -29,7 +29,7 @@ video {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.6;
+
   top: 0;
   left: 0;
   z-index: -1;
@@ -54,8 +54,7 @@ video {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.15; /* Use a decimal value between 0 and 1 for transparency */
-  background-color: black;
+  opacity: 0.1; /* Use a decimal value between 0 and 1 for transparency */
 }
 
 :root {

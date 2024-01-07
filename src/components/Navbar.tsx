@@ -22,7 +22,7 @@ const Navbar = () => {
   // NAV MENU ICON CLASSES
   const menuIconClasses = (forOpen: boolean) =>
     clsx(
-      "absolute top-8 right-10 text-6xl text-primary-600 cursor-pointer sm:hidden transition-all duration-300 ease-in-out ",
+      "absolute top-8 right-10 text-6xl  text-white cursor-pointer sm:hidden transition-all duration-300 ease-in-out ",
       forOpen
         ? isOpen
           ? "w-12 h-12 "
@@ -35,19 +35,25 @@ const Navbar = () => {
   // NAV ITEM CLASSES
   const navItemsClasses = clsx(
     isOpen ? "h-96 " : "h-0 ",
-    "absolute top-[100%] flex flex-col items-start justify-evenly gap-y-12 ",
+    "absolute top-[100%] flex flex-col  text-white items-start justify-evenly gap-y-12 ",
     "sm:hidden transition-[height] duration-300 ease-in-out overflow-hidden",
     "w-full shadow-lg shadow-gray-200/80 rounded-b padding-1% "
   );
 
   return (
     <div className="main">
-      <nav className="w-full m-10 fixed top-0 left-1/2 transform -translate-x-1/2 flex flex-col transition-all duration-300 ease-in-out h-navbar z-30 bg-black opacity-10 rounded-xl mr-4"></nav>
+      <nav className="w-full fixed top-0 left-1/2  text-white transform -translate-x-1/2 flex flex-col transition-all duration-300 ease-in-out h-navbar z-30  rounded-xl mr-4"></nav>
       <div className="overlay"></div>
       <video src="back.mp4" autoPlay loop muted />
       <div className="content">
+        <div className="flex items-center justify-center mt-4 text-2xl">
+          <h1 className="text-white">
+            Embark on Your Journey, Embrace the World
+          </h1>
+        </div>
+
         {/* NAVBAR */}
-        <div className="flex-1 relative flex flex-col items-stretch justify-start gap-y-6 rounded shadow-lg shadow-black/5">
+        <div className="flex-1 relative flex  text-white flex-col items-stretch justify-start gap-y-6 rounded shadow-lg shadow-black/5">
           {/* LOGO AND MENU BTN */}
           <div className="max-h-[8rem] py-4 self-center">
             {/* MENU BTN - ON MOBILE SCREENS */}
@@ -62,7 +68,7 @@ const Navbar = () => {
           </div>
 
           {/* NAV ITEMS - ON TABLET AND LARGER SCREENS */}
-          <div className="container mx-auto px-4 hidden sm:flex flex-1 items-center justify-between gap-x-4 pt-4 pb-6">
+          <div className="container mx-auto px-4  text-white hidden sm:flex flex-1 items-center justify-between gap-x-4 pt-4 pb-6">
             <Logo />
             {navItems.map((item, i) => (
               <NavItem
