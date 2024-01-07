@@ -2,6 +2,11 @@
 
 WANDERVISTA is more than just a personal travel project; it's my personal gateway to unforgettable journeys, offering a seamless blend of adventure, culture, and relaxation. Embark on your journey and embrace the world with expertly crafted travel packages from WANDERVISTA.
 
+
+https://github.com/samiksha1204/wandervista/assets/102059617/d3f8559c-4e92-478a-b2f2-7fd6c8b1623f
+
+
+
 ## Technologies Used
 
 - [React.js](https://reactjs.org/)
