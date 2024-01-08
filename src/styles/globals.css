@@ -4,7 +4,7 @@
 @tailwind utilities;
 /* Global Reset and Font */
 :root {
-  --navbar-height-mob: 5rem;
+  --navbar-height-mob: 2rem;
   --navbar-height: 10rem;
 
   --except-nav-mob: calc(100vh - var(--navbar-height-mob));
@@ -15,7 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Sebastian bobby;
+  font-family: "Island Moments", sans-serif; /* Use single quotes for font names with spaces */
 }
 
 /* Main Section Styling */

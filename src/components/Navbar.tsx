@@ -6,7 +6,7 @@ import { FC, useState } from "react";
 import { CgMenuRight } from "react-icons/cg";
 import { IoIosRemoveCircleOutline } from "react-icons/io";
 import Logo from "./Logo";
-import Photogal from "./Photogal";
+import Quote from "./Quote";
 
 const navItems = [
   { text: "Home", url: "/" },
@@ -22,20 +22,20 @@ const Navbar = () => {
   // NAV MENU ICON CLASSES
   const menuIconClasses = (forOpen: boolean) =>
     clsx(
-      "absolute top-8 right-10 text-6xl  text-white cursor-pointer sm:hidden transition-all duration-300 ease-in-out ",
+      "absolute top-8 right-10 text-6xl text-white cursor-pointer sm:hidden transition-all duration-300 ease-in-out",
       forOpen
         ? isOpen
-          ? "w-12 h-12 "
-          : "w-0 h-0 "
+          ? "w-12 h-12"
+          : "w-0 h-0"
         : !isOpen
-        ? "w-12 h-12 "
-        : "w-0 h-0 "
+        ? "w-12 h-12"
+        : "w-0 h-0"
     );
 
   // NAV ITEM CLASSES
   const navItemsClasses = clsx(
     isOpen ? "h-96 " : "h-0 ",
-    "absolute top-[100%] flex flex-col  text-white items-start justify-evenly gap-y-12 ",
+    " top-[100%] flex flex-col  text-white items-center justify-evenly gap-y-12 ",
     "sm:hidden transition-[height] duration-300 ease-in-out overflow-hidden",
     "w-full shadow-lg shadow-gray-200/80 rounded-b padding-1% "
   );
@@ -46,7 +46,7 @@ const Navbar = () => {
       <div className="overlay"></div>
       <video src="back.mp4" autoPlay loop muted />
       <div className="content">
-        <div className="flex items-center justify-center mt-4 text-2xl">
+        <div className="flex items-center border-b-2 border-white justify-center mt-4 text-2xl">
           <h1 className="text-white">
             Embark on Your Journey, Embrace the World
           </h1>
@@ -93,7 +93,7 @@ const Navbar = () => {
                 />
               ))}
           </div>
-          <Photogal />
+          <Quote />
         </div>
       </div>
     </div>
