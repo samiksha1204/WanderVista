@@ -9,7 +9,7 @@ import Logo from "./Logo";
 import Quote from "./Quote";
 
 const navItems = [
-  { text: "Home", url: "/" },
+  { text: "Home", url: "/Home" },
   { text: "Popular Places", url: "/about" },
   { text: "Contact", url: "/team" },
   { text: "Register", url: "/resource" },
@@ -109,7 +109,7 @@ const NavItem: FC<{
 }> = ({ text, url, className, selected }) => {
   const linkClassName = clsx(
     "text-xl px-8 sm:px-0   text-left transition-all duration-300 ease-in-out " +
-      "hover:text-primary-600 hover:scale-110  " +
+      "hover:text-primary-600 hover:scale-150  " +
       (selected &&
         " scale-100 before:absolute before:bottom-[-2px] before:left-0 before:h-1 before:w-full" +
           "before:bg-primary-600 before:rounded-xl "),

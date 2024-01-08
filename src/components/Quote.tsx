@@ -17,7 +17,7 @@ const Quote = () => {
           the World with Wandervista – Where Your Travel Story Begins.
         </p>
 
-        <div className="flex mx-auto items-center justify-center mt-4 relative">
+        <div className="flex mx-auto items-center justify-center   mt-4 relative">
           {/* Link to scroll to the "Photogal" section */}
           <ScrollLink
             to="Photogal"
@@ -28,9 +28,9 @@ const Quote = () => {
             className="text-6xl cursor-pointer"
             id="link"
           >
-            <div className="flex flex-col items-center justify-center">
-              <h3 className="mb-2">Explore More</h3>
-              <FaArrowAltCircleDown />
+            <div className="flex flex-col items-center justify-center  ">
+              <h3 className="mb-2 ">Explore More</h3>
+              <FaArrowAltCircleDown className=" hover:scale-150" />
             </div>
           </ScrollLink>
         </div>

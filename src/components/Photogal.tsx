@@ -1,14 +1,25 @@
 import React from "react";
 import NextLink from "next/link";
 import { FaArrowAltCircleDown } from "react-icons/fa";
+import { HiExternalLink } from "react-icons/hi";
+import Button from "./Button";
 
-const Photogal = () => {
+interface ButtonProps {
+  onClick: () => void;
+  label: string;
+}
+
+const Photogal: React.FC = () => {
+  const handleClick = () => {
+    console.log("Button clicked!");
+    // Add your click event logic here
+  };
   return (
     <section id="Photogal">
-      <div className="flex w-full lg:mt-[5%] justify-center gap-4 items-center lg:items-stretch h-[100%]">
+      <div className="flex w-full mb-20 lg:mt-[5%] justify-center gap-4 items-center lg:items-stretch h-[100%]">
         {/* Text Container */}
         <div className="container lg:w-[40%] h-full flex justify-center items-center  flex-col p-8">
-          <h1 className="text-4xl font-semibold uppercase text-center justify-center lg:text-left">
+          <h1 className="text-4xl font-semibold  uppercase text-center justify-center lg:text-left">
             Welcome to Wandervista
           </h1>
           <p className="text-xl font-semibold mt-6 leading-relaxed text-justify">
@@ -21,6 +32,7 @@ const Photogal = () => {
             exploration knows no bounds. At Wandervista, every trip is a story,
             and every traveler is a cherished chapter in our tale of wanderlust.
           </p>
+          <Button onClick={handleClick} label="Learn More" />
         </div>
 
         {/* Image Container */}

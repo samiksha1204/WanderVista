@@ -15,7 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Island Moments", sans-serif; /* Use single quotes for font names with spaces */
+  font-family: sans-serif Brush Script MT, Brush Script Std, cursive;
 }
 
 /* Main Section Styling */
