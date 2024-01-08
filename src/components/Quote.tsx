@@ -1,13 +1,11 @@
 import React from "react";
-import Link from "next/link";
 import { FaArrowAltCircleDown } from "react-icons/fa";
-import { useRouter } from "next/router";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+import Photogal from "./Photogal";
 
 const Quote = () => {
-  const router = useRouter();
-
-  const handleNavigateToPhotogal = () => {
-    router.push("/Photogal");
+  const scrollToPhotogal = () => {
+    scroll.scrollTo(Photogal); // Assuming Photogal is the element ID
   };
 
   return (
@@ -20,17 +18,21 @@ const Quote = () => {
         </p>
 
         <div className="flex mx-auto items-center justify-center mt-4 relative">
-          {/* Link to navigate to Photogal component */}
-          <div
+          {/* Link to scroll to the "Photogal" section */}
+          <ScrollLink
+            to="Photogal"
+            spy={true}
+            smooth={true}
+            offset={-70} // Adjust this value to your layout
+            duration={500}
             className="text-6xl cursor-pointer"
             id="link"
-            onClick={handleNavigateToPhotogal}
           >
             <div className="flex flex-col items-center justify-center">
               <h3 className="mb-2">Explore More</h3>
               <FaArrowAltCircleDown />
             </div>
-          </div>
+          </ScrollLink>
         </div>
       </div>
     </div>
