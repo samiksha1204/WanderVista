@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Photogal } from "@/components";
+import { Navbar, Photogal, Services } from "@/components";
 
 export default function () {
   return (
@@ -9,6 +9,9 @@ export default function () {
       </section>
       <section id="part2">
         <Photogal />
+      </section>
+      <section id="part3">
+        <Services />
       </section>
     </div>
   );

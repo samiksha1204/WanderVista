@@ -3,7 +3,7 @@ import NextLink from "next/link";
 import { FaArrowAltCircleDown } from "react-icons/fa";
 import { HiExternalLink } from "react-icons/hi";
 import Button from "./Button";
-
+import Image from "next/image";
 interface ButtonProps {
   onClick: () => void;
   label: string;
@@ -38,25 +38,31 @@ const Photogal: React.FC = () => {
         {/* Image Container */}
         <div className="w-[353.38px] hidden lg:block h-[345.47px] lg:right-[1%]  relative">
           {/* Image 1 */}
-          <img
+          <Image
             className="hidden lg:block w-[200.90px] h-[240.19px] left-[210.47px] top-[131.28px] absolute"
-            src="one.jpg"
+            src="/one.jpg"
             alt="Image 1"
-            loading="lazy"
+            width={500}
+            height={500}
+            priority
           />
           {/* Image 2 */}
-          <img
+          <Image
             className="hidden lg:block w-[200.90px] h-[250.19px] left-[100.58px] top-[59.59px] absolute"
-            src="two.jpg"
+            src="/two.jpg"
             alt="Image 2"
-            loading="lazy"
+            width={500}
+            height={500}
+            priority
           />
           {/* Image 3 */}
-          <img
+          <Image
             className="hidden border-4 border-white lg:block w-[200.90px] h-[250.19px] left-0 top-0 absolute"
-            src="three.jpg"
+            src="/three.jpg"
             alt="Image 3"
-            loading="lazy"
+            width={500}
+            height={500}
+            priority
           />
         </div>
       </div>
