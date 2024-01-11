@@ -10,9 +10,9 @@ import Quote from "./Quote";
 
 const navItems = [
   { text: "Home", url: "/Home" },
-  { text: "Popular Places", url: "/about" },
+  { text: "About", url: "/About" },
+  { text: "Services", url: "/about" },
   { text: "Contact", url: "/team" },
-  { text: "Register", url: "/resource" },
 ];
 
 const Navbar = () => {
