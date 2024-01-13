@@ -1,12 +1,13 @@
-import Image from "next/image";
-import { Navbar, Photogal, Services } from "@/components";
+import { Navbar, Photogal, Services, Suscribe, Aboutus } from "@/components";
 
-export default function Home() {
+export default function index() {
   return (
     <main>
       <Navbar />
       <Photogal />
       <Services />
+      <Suscribe />
+      <Aboutus />
     </main>
   );
 }

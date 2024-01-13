@@ -46,7 +46,7 @@ const Navbar = () => {
       <div className="overlay"></div>
       <video src="back.mp4" autoPlay loop muted />
       <div className="content">
-        <div className="flex items-center border-b-2 border-white justify-center mt-4 text-2xl">
+        <div className="flex items-center  border-b-2 border-white justify-center mt-4 text-2xl">
           <h1 className="text-white">
             Embark on Your Journey, Embrace the World
           </h1>

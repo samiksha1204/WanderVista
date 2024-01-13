@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Satisfy&display=swap");
 /* Tailwind CSS and Custom Properties */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* Global Reset and Font */
+
 :root {
   --navbar-height-mob: 2rem;
   --navbar-height: 10rem;

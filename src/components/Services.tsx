@@ -1,11 +1,12 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Services() {
   return (
     <section id="part3" className="bg-servicebg lg:mt-[5%] p-8">
       <h1 className="p-6 text-4xl font-semibold text-center">OUR SERVICES</h1>
-      <h2 className="text-2xl font-semibold mt-6 leading-relaxed text-center">
+      <h2 className="text-6xl font-Great mt-6 leading-relaxed text-center">
         Your unique travel flair
       </h2>
       {/* 1st card*/}
@@ -24,8 +25,11 @@ export default function Services() {
               where solo adventures redefine freedom and unveil the
               extraordinary within
             </p>
-
-            <h1 className="text-black text-4xl mt-10 font-bold">Wander Solo</h1>
+            <Link href="/Service">
+              <h1 className="text-black text-4xl mt-10 font-bold">
+                Wander Solo
+              </h1>
+            </Link>
           </div>
         </div>
         {/* 2nd card*/}
@@ -44,10 +48,11 @@ export default function Services() {
               group escape transforms joy, revealing the extraordinary in shared
               moments and thrilling adventures.
             </p>
-
-            <h1 className="text-black text-4xl mt-10 font-bold">
-              Together Trails
-            </h1>
+            <Link href="/Service">
+              <h1 className="text-black text-4xl mt-10 font-bold">
+                Together Trails
+              </h1>
+            </Link>
           </div>
         </div>
         {/* 3rd card*/}
@@ -65,14 +70,15 @@ export default function Services() {
               couple's retreat redefines love, unveiling the extraordinary in
               shared moments and intimate adventures.
             </p>
-
-            <h1 className="text-black text-4xl mt-10 font-bold">
-              Romantic Escapes
-            </h1>
+            <Link href="/Service">
+              <h1 className="text-black text-4xl mt-10 font-bold">
+                Romantic Escapes
+              </h1>
+            </Link>
           </div>
         </div>
         {/* 4th card*/}
-        <div className="relative border-y-8 border-cyan-400">
+        <div className="relative border-y-8 border-cyan-400 hidden lg:block">
           <video
             src="Wedding.mp4"
             autoPlay
@@ -87,10 +93,11 @@ export default function Services() {
               weddings and events redefine enchantment, unveiling the
               extraordinary in every cherished moment and magical celebration.
             </p>
-
-            <h1 className="text-black text-4xl mt-10 font-bold">
-              Destination Celebrations
-            </h1>
+            <Link href="/Service">
+              <h1 className="text-black text-4xl mt-10 font-bold">
+                Destination Celebrations
+              </h1>
+            </Link>
           </div>
         </div>
       </div>
