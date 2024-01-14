@@ -16,7 +16,6 @@ export default function index() {
       <Services />
       <Suscribe />
       <Aboutus />
-      <Feedback />
       <Footer />
     </main>
   );
