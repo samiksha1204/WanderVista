@@ -1,4 +1,12 @@
-import { Navbar, Photogal, Services, Suscribe, Aboutus } from "@/components";
+import {
+  Navbar,
+  Photogal,
+  Services,
+  Suscribe,
+  Aboutus,
+  Footer,
+  Feedback,
+} from "@/components";
 
 export default function index() {
   return (
@@ -8,6 +16,8 @@ export default function index() {
       <Services />
       <Suscribe />
       <Aboutus />
+      <Feedback />
+      <Footer />
     </main>
   );
 }
