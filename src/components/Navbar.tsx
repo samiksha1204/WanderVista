@@ -11,7 +11,7 @@ import Quote from "./Quote";
 const navItems = [
   { text: "Home", url: "/Home" },
   { text: "About", url: "/About" },
-  { text: "Services", url: "/about" },
+  { text: "Services", url: "/packages" },
   { text: "Contact", url: "/team" },
 ];
 

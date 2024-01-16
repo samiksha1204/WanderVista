@@ -6,6 +6,7 @@ import Suscribe from "./Suscribe";
 import Aboutus from "./Aboutus";
 import Footer from "./Footer";
 import Feedback from "./Feedback";
+import StatePage from "./TouristAttraction";
 export {
   Navbar,
   Photogal,
@@ -15,4 +16,5 @@ export {
   Aboutus,
   Footer,
   Feedback,
+  StatePage,
 };
