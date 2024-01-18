@@ -20,6 +20,8 @@ const nextConfig = {
       "live.staticflickr.com",
       "m.economictimes.com",
       "iptb.b-cdn.net",
+      "img.freepik.com",
+      "tecdn.b-cdn.net",
     ],
   },
 };

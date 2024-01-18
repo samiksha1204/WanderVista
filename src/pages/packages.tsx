@@ -24,8 +24,8 @@ const Packages: React.FC = () => {
       <h1 className="Font-bold text-4xl text-center items-center justify-center mt-20 mb-20">
         Famous Spots
       </h1>
-      <div>
-        {chunkedTouristSpots(touristSpots, 4).map((row, rowIndex) => (
+      <div className="flex flex-col items-center justify-center">
+        {chunkedTouristSpots(touristSpots, 3).map((row, rowIndex) => (
           <div key={rowIndex} className="flex gap-4">
             {row.map((spot: TouristSpotType) => (
               <StatePage key={spot.id} touristSpots={[spot]} />

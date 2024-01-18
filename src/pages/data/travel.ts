@@ -123,4 +123,100 @@ export const touristSpots: TouristSpot[] = [
     info: "Somnath, literally meaning 'lord of the moon' is a pilgrim center and is home to one of the 12 Jyotirlingas. It is a town which derives much of its identity from the mythology, religion, and legends that surround it.Primarily a temple town, Somnath is a place where a strong scent of religion and legends lingers around tourism and even daily life. Its spiritual environment is ornamented by the huge number of temples in the area, however, Somnath also offers beaches, museums and other attractions. While the Somnath temple and Somnath beach are the primary places to visit here, Gita Mandir, Balukha Tirtha, Kamnath Mahadev Temple, Somnath Museum are some of the other places that one can visit.",
     images: "https://www.holidify.com/images/bgImages/SOMNATH.jpg",
   },
+
+  {
+    id: "27",
+    state: "Lakshadweep",
+    name: "Lakshadweep",
+
+    info: "Lakshadweep, once known as Laccadive Islands, is a stunning archipelago in the Arabian Sea with 36 islands covering 32 sq. kilometers. Located 400km off Kerala's southwest coast, it comprises 12 atolls, 3 reefs, and 5 submerged banks, with only ten islands inhabited. Accessible from Kochi, a mandatory permit is required for all tourists, excluding government officials and armed forces. The Lakshadweep Samudram Cruise and Cordelia Cruise offer unique maritime adventures, exploring islands like Kavaratti, Minicoy, and Kalpeni. The charm of Lakshadweep lies in its remote allure, away from mainstream tourism, allowing for a serene and unspoiled experience. Each island offers a distinctive blend of attractions, from water sports to tranquil escapes, ensuring a diverse and enchanting visit.",
+    images: "https://www.holidify.com/images/bgImages/LAKSHADWEEP-ISLANDS.jpg",
+  },
+
+  {
+    id: "28",
+    name: "Paro",
+    state: "Paro",
+    info: "Paro is a small town situated in the Paro Valley of Bhutan. It is one of the most fertile as well as historic valley of Bhutan which is the widest in the Kingdom. It is home to 155 temples and monasteries dating back to the 14th century and also Bhutan's sole international airport. The Par...",
+    images: "https://www.holidify.com/images/bgImages/PARO.jpg",
+  },
+  {
+    id: "29",
+    name: "Thimphu",
+    state: "Thimphu",
+    info: "Thimphu is known as the heart of Bhutan nestled in its central-western part. Replaced by Bhutan's ancient capital - Punakha, Thimphu was declared the capital city of the Himalayan Kingdom in the year 1961. Originally pronounced as 'Thimbu', the city is known as the most modernised place in Bhut...",
+    images: "https://www.holidify.com/images/bgImages/THIMPU.jpg",
+  },
+  {
+    id: "30",
+    state: "Phobjikha Valley (Gangtey)",
+    name: "Phobjikha Valley (Gangtey)",
+    info: "Against the backdrop of western slopes of the Black Mountains in Wangdue Phodrang, lies the bowl-shaped Phobjikha valley that offers breathtaking views of vast expanses of green fields. It is home to the endangered black-necked crane that migrates to this area during winters. Phobjikha valley a...",
+    images: "https://www.holidify.com/images/bgImages/PHOBJIKHA-VALLEY.jpg",
+  },
+  {
+    id: "31",
+    name: "Haa Valley",
+    state: "Haa Valley",
+    info: "Known as the smallest Dzongkhang (district) of Bhutan, Haa Valley is one of the most picturesque places located at the south-west of Paro. The idyllic wooded forests and paths are ideal for enthusiastic hikers and trekkers. This is also the only place in the world where one can find the cream colour...",
+    images: "https://www.holidify.com/images/bgImages/HAA-VALLEY.jpg",
+  },
+
+  {
+    id: "32",
+    name: "Halong Bay",
+    state: "Halong Bay",
+    info: "Characterised by towering karst limestone pillars and small islets of various shapes and sizes amidst crystal blue waters, Halong Bay's ethereal beauty is a sight to behold. Located in northern Vietnam, it is the most popular tourist spot this side of the country. Halong Bay, where 'Halong' translat...",
+    images: "https://www.holidify.com/images/bgImages/HALONG-BAY.jpg",
+  },
+  {
+    id: "33",
+    name: "Ho Chi Minh City",
+    state: "4.2",
+    info: "Popularly known as Saigon, Ho Chi Minh City in southern Vietnam is the largest city and the financial and cultural capital of the country. Ho Chi Minh City is a fast-paced city deeply rooted in its cultural roots whilst quickly having adapted to the demands of urbanisation. Here you will find o...",
+    images: "https://www.holidify.com/images/bgImages/HO-CHI-MINH-CITY.jpg",
+  },
+  {
+    id: "34",
+    name: "Hanoi",
+    state: "Hanoi",
+    info: "Hanoi is a resolute survivor of the many wars fought on its land and is now the capital of Vietnam. The city is packed with rustic beauty and romance and lies on the banks of the Red River. It is culturally and economically growing at a rapid rate and is a mix of old-age charm and a modern cosmopoli...",
+    images: "https://www.holidify.com/images/bgImages/HANOI.jpg",
+  },
+  {
+    id: "35",
+    name: "Hoi An",
+    state: "Hoi An",
+    info: "One of the oldest cities in Asia, Hoi An is a town in central Vietnam which was declared as a World Heritage Site by UNESCO in 1999. Located south of Danang, Hoi An translates to 'a peaceful meeting place'. It is culturally and historically one of Vietnam's most important towns and also one of the r...",
+    images: "https://www.holidify.com/images/bgImages/HOI-AN.jpg",
+  },
+  {
+    id: "36",
+    name: "Phong Nha Ke-Bang National Park",
+    state: "Phong Nha Ke-Bang National Park",
+    info: "Phong Nha ke Bang National Park is a UNESCO World Heritage site, known for its many cave systems, old karst mountains, thick green forests and scintillating underground rivers. There are many spectacular caves in the region including the largest cave on the planet. Spread in the region of 10,000 hec...",
+    images:
+      "https://www.holidify.com/images/bgImages/PHONG-NHA-KE-BANG-NATIONAL-PARK.jpg",
+  },
+  {
+    id: "37",
+    name: "Hue",
+    state: "Hue",
+    info: "Hue, the former royal capital of the Nguyen empire in central Vietnam, is one of the oldest cities in the country. Set on the banks of the Perfume River, Hue is a primarily a historical city which famously houses the Imperial City (declared a World Heritage Site in 1993) within the Citadel, which ac...",
+    images: "https://www.holidify.com/images/bgImages/HUE.jpg",
+  },
+  {
+    id: "38",
+    name: "Da Nang",
+    state: "Da Nang",
+    info: "Da Nang sits prettily on the east coast of Vietnam, right between Hanoi and Ho Chi Minh City. Popularly known as the tourist capital of South-Central Vietnam, Da Nang is truly stunning - filled with beaches, museums, evolving nightlife and world-class infrastructure. On the coast of the South China ...",
+    images: "https://www.holidify.com/images/bgImages/DA-NANG.jpg",
+  },
+  {
+    id: "39",
+    name: "Sapa",
+    state: "Sapa",
+    info: "Sapa is one of the popular hill stations located in Vietnam. Situated at a height of 1500 metres Sapa is known to share border with China. This popular destination is favourite amongst the tourist for its high cultural diversity as well as scenic beauty. This place has seen a rapid growth in the rec...",
+    images: "https://www.holidify.com/images/bgImages/SAPA.jpg",
+  },
 ];
