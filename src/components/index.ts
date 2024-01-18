@@ -7,6 +7,7 @@ import Aboutus from "./Aboutus";
 import Footer from "./Footer";
 import Feedback from "./Feedback";
 import StatePage from "./TouristAttraction";
+import StateSelectionBox from "./Searchbox";
 export {
   Navbar,
   Photogal,
@@ -17,4 +18,5 @@ export {
   Footer,
   Feedback,
   StatePage,
+  StateSelectionBox,
 };
