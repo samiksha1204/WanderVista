@@ -11,13 +11,11 @@ import {
 export default function logo() {
   return (
     <main>
-      <Navbar />
       <Photogal />
       <Services />
       <Suscribe />
       <Aboutus />
       <Feedback />
-      <Footer />
     </main>
   );
 }

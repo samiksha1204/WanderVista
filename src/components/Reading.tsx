@@ -2,12 +2,12 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Feedback() {
+export default function Readings() {
   return (
-    <div className=" bg-servicebg p-8 text-4xl font-semibold text-center mb-8">
+    <div className="bg-servicebg p-8 text-4xl font-semibold text-center mb-8">
       <h1>Reading Corner</h1>
 
-      <div className="p-4 lg:px-10 h-[30%] mt-10 xl:px-40 flex capitalize flex-col-3 items-center space-x-20 justify-center text-center gap-8">
+      <div className="p-4 lg:px-10 h-[30%]  mt-10 xl:px-40 flex capitalize flex-col-1 items-center space-x-20 justify-center text-center gap-8">
         {/* Image */}
         <div className="relative flex-shrink-0 w-80 h-80">
           <Image
@@ -25,7 +25,7 @@ export default function Feedback() {
             <h1 className="text-gray-700 text-2xl">Things to pack</h1>
           </Link>
         </div>
-        <div className="relative flex-shrink-0 w-80 h-80">
+        <div className="hidden lg:block relative flex-shrink-0 w-80 h-80">
           <Image
             className="object-cover w-full h-full"
             src="https://img.freepik.com/free-photo/majestic-pyramid-shape-awe-inspiring-ancient-civilization-monument-generated-by-ai_188544-21352.jpg?size=626&ext=jpg&ga=GA1.1.1506511834.1697364203&semt=ais"
@@ -43,7 +43,7 @@ export default function Feedback() {
         </div>
 
         {/* Image */}
-        <div className="relative flex-shrink-0 w-80 h-80">
+        <div className="hidden lg:block relative flex-shrink-0 w-80 h-80">
           <Image
             className="object-cover w-full h-full"
             src="https://img.freepik.com/free-photo/young-couple-blanket-sitting-sea-shore_23-2148019902.jpg?w=900&t=st=1705597065~exp=1705597665~hmac=270fd872fb684093d8e5a4d3f0d0f26521bd3bf93b0d523392b154f839c2e044"
@@ -61,7 +61,7 @@ export default function Feedback() {
         </div>
 
         {/* Image */}
-        <div className="relative flex-shrink-0 w-80 h-80">
+        <div className=" hidden lg:block  relative flex-shrink-0 w-80 h-80">
           <Image
             className="object-cover w-full h-full"
             src="https://img.freepik.com/free-photo/full-shot-travel-concept-with-landmarks_23-2149153258.jpg?size=626&ext=jpg&ga=GA1.1.1506511834.1697364203&semt=sph"

@@ -20,7 +20,6 @@ const Packages: React.FC = () => {
   // Render rows with 4 columns each
   return (
     <main>
-      <Navbar />
       <h1 className="Font-bold text-4xl text-center items-center justify-center mt-20 mb-20">
         Famous Spots
       </h1>

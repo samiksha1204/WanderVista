@@ -10,7 +10,7 @@ const Subscribe: React.FC = () => {
   };
 
   return (
-    <div className="bg-slate-500 lg:mt-[5%] p-10 w-full h-[281px] relative flex items-center justify-center">
+    <div className="bg-slate-500 lg:mt-[5%] p-10 h-[281px] relative flex items-center justify-center">
       <Image
         className="hidden lg:block lg:w-[300px] w-[100px] lg:h-[274px] h-[150px] relative transform translate-y-[-1%]"
         src="/L.png"

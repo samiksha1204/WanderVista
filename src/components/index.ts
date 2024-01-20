@@ -5,10 +5,13 @@ import Services from "./Services";
 import Suscribe from "./Suscribe";
 import Aboutus from "./Aboutus";
 import Footer from "./Footer";
-import Feedback from "./Feedback";
+import Readings from "./Reading";
 import StatePage from "./TouristAttraction";
 import StateSelectionBox from "./Searchbox";
+import Layout from "./layout";
+import Asseenin from "./Asseen";
 export {
+  Layout,
   Navbar,
   Photogal,
   Quote,
@@ -16,7 +19,8 @@ export {
   Suscribe,
   Aboutus,
   Footer,
-  Feedback,
+  Readings,
   StatePage,
   StateSelectionBox,
+  Asseenin,
 };

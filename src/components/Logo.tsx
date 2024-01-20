@@ -6,7 +6,7 @@ const Logo = () => {
 
   const handleImageClick = () => {
     // Handle your navigation or action here
-    router.push("/logo"); // Replace with your actual destination
+    router.push("/Home"); // Replace with your actual destination
   };
 
   return (

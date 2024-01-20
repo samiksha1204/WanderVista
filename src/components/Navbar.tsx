@@ -37,16 +37,16 @@ const Navbar = () => {
     isOpen ? "h-96 " : "h-0 ",
     " top-[100%] flex flex-col  text-white items-center justify-evenly gap-y-12 ",
     "sm:hidden transition-[height] duration-300 ease-in-out overflow-hidden",
-    "w-full shadow-lg shadow-gray-200/80 rounded-b padding-1% "
+    "w-screen shadow-lg shadow-gray-200/80 rounded-b padding-1% "
   );
 
   return (
     <div className="main">
-      <nav className="w-full fixed top-0 left-1/2  text-white transform -translate-x-1/2 flex flex-col transition-all duration-300 ease-in-out h-navbar z-30  rounded-xl mr-4"></nav>
+      <nav className="fixed top-0 left-1/2  text-white transform -translate-x-1/2 flex flex-col transition-all duration-300 ease-in-out h-navbar z-30  rounded-xl mr-4"></nav>
       <div className="overlay"></div>
       <video src="back.mp4" autoPlay loop muted />
       <div className="content">
-        <div className="flex items-center  border-b-2 border-white justify-center mt-4 text-2xl">
+        <div className="flex items-center   border-b-2 border-white justify-center mt-4 text-2xl">
           <h1 className="text-white">
             Embark on Your Journey, Embrace the World
           </h1>
